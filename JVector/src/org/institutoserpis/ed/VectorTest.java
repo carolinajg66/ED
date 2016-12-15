@@ -22,5 +22,15 @@ public class VectorTest {
 	public void indexOfEmpty (){
 		assertEquals (-1,Vector.indexOf(new int [] {32,15,7,9,12,},123));
 	}
+	@Test
+	public void min() {
+		assertEquals (4,Vector.min(new int [] {32,15,4,9,12}));
+		assertEquals (2,Vector.min(new int [] {2,15,7,9,12}));
+		assertEquals (5,Vector.min(new int [] {32,5,7,9,12}));
+		assertEquals (3,Vector.min(new int [] {32,15,7,9,3}));
+		assertEquals (1,Vector.min(new int [] {32,15,7,1,3}));
+
+	}
+	
 
 }
