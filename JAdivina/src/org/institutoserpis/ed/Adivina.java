@@ -34,11 +34,11 @@ public class Adivina {
 			
 			
 		}while (correcto == false ) ;
-		System.out.printf("Has ganado!!!!!!!.Has acertado (el intento nº %d) . \nº ", contadorIntentos );
+		System.out.printf("Has ganado!!!!!!!.Has acertado (el intento nº %d) . \n ", contadorIntentos );
 		
 	}
 }
 	
-
+3
 
 
