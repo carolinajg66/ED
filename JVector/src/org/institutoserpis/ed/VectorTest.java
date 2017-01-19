@@ -20,7 +20,7 @@ public class VectorTest {
 	
 	@Test
 	public void indexOfEmpty (){
-		assertEquals (-1,Vector.indexOf(new int [] {32,15,7,9,12,},123));
+		assertEquals (-1,Vector.indexOf(new int [] {},123));
 	}
 	@Test
 	public void min() {
@@ -31,6 +31,25 @@ public class VectorTest {
 		assertEquals (1,Vector.min(new int [] {32,15,7,1,3}));
 
 	}
-	
+	@Test
+	public void selectinSort (){
+//		int[] v=new int []{32,15,7,9,12};
+//		Vector.selectionSort(v);
+//		assertArrayEquals (new int []{7,9,12,15,32},v);
+		
+		int[] v=new int []{32,7,15,9,12};
+		Vector.selectionSort(v);
+		assertArrayEquals (new int []{7,9,12,15,32},v);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
 
 }
