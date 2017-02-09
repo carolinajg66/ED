@@ -33,9 +33,6 @@ public class VectorTest {
 	}
 	@Test
 	public void selectinSort (){
-//		int[] v=new int []{32,15,7,9,12};
-//		Vector.selectionSort(v);
-//		assertArrayEquals (new int []{7,9,12,15,32},v);
 		
 		int[] v=new int []{32,7,15,9,12};
 		Vector.selectionSort(v);
