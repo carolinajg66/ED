@@ -18,6 +18,8 @@ public partial class MainWindow: Gtk.Window
 
 
 		Table table = new Table (9, 10, true);
+
+
 //
 //		for (uint index =0; index <90; index++) {
 //			Button button = new Button ();
@@ -29,9 +31,10 @@ public partial class MainWindow: Gtk.Window
 //			button.Clicked += delegate {
 //				Console.WriteLine ("Clicked en " + button.Label);
 //			};
-//
-//
 //		}
+
+
+
 		for (uint row =0; row <9;row++) 
 			for (uint column=0; column<10; column++){
 				uint index = row * 10 + column;
